@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B66C822E23CCBEE700F5EA8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C822D23CCBEE700F5EA8C /* AppDelegate.swift */; };
+		B66C823023CCBEE700F5EA8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C822F23CCBEE700F5EA8C /* SceneDelegate.swift */; };
+		B66C823223CCBEE700F5EA8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C823123CCBEE700F5EA8C /* ViewController.swift */; };
+		B66C823523CCBEE700F5EA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66C823323CCBEE700F5EA8C /* Main.storyboard */; };
+		B66C823723CCBEE800F5EA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66C823623CCBEE800F5EA8C /* Assets.xcassets */; };
+		B66C823A23CCBEE800F5EA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66C823823CCBEE800F5EA8C /* LaunchScreen.storyboard */; };
+		B66C824523CCBEE900F5EA8C /* RacingCarCustomiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C824423CCBEE900F5EA8C /* RacingCarCustomiserTests.swift */; };
+		B66C825023CCBEE900F5EA8C /* RacingCarCustomiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C824F23CCBEE900F5EA8C /* RacingCarCustomiserUITests.swift */; };
+		B66C825E23CCC20100F5EA8C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C825D23CCC20100F5EA8C /* Car.swift */; };
+		B6CCE75F23D092E600DB8138 /* starterCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CCE75E23D092E600DB8138 /* starterCars.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B66C824123CCBEE900F5EA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66C822223CCBEE700F5EA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66C822923CCBEE700F5EA8C;
+			remoteInfo = RacingCarCustomiser;
+		};
+		B66C824C23CCBEE900F5EA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66C822223CCBEE700F5EA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66C822923CCBEE700F5EA8C;
+			remoteInfo = RacingCarCustomiser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B66C822A23CCBEE700F5EA8C /* RacingCarCustomiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RacingCarCustomiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C822D23CCBEE700F5EA8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B66C822F23CCBEE700F5EA8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B66C823123CCBEE700F5EA8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B66C823423CCBEE700F5EA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B66C823623CCBEE800F5EA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B66C823923CCBEE800F5EA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B66C823B23CCBEE800F5EA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66C824023CCBEE900F5EA8C /* RacingCarCustomiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacingCarCustomiserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C824423CCBEE900F5EA8C /* RacingCarCustomiserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarCustomiserTests.swift; sourceTree = "<group>"; };
+		B66C824623CCBEE900F5EA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66C824B23CCBEE900F5EA8C /* RacingCarCustomiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacingCarCustomiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C824F23CCBEE900F5EA8C /* RacingCarCustomiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarCustomiserUITests.swift; sourceTree = "<group>"; };
+		B66C825123CCBEE900F5EA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66C825D23CCC20100F5EA8C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		B6CCE75E23D092E600DB8138 /* starterCars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starterCars.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B66C822723CCBEE700F5EA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C823D23CCBEE900F5EA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C824823CCBEE900F5EA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B66C822123CCBEE700F5EA8C = {
+			isa = PBXGroup;
+			children = (
+				B66C822C23CCBEE700F5EA8C /* RacingCarCustomiser */,
+				B66C824323CCBEE900F5EA8C /* RacingCarCustomiserTests */,
+				B66C824E23CCBEE900F5EA8C /* RacingCarCustomiserUITests */,
+				B66C822B23CCBEE700F5EA8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B66C822B23CCBEE700F5EA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B66C822A23CCBEE700F5EA8C /* RacingCarCustomiser.app */,
+				B66C824023CCBEE900F5EA8C /* RacingCarCustomiserTests.xctest */,
+				B66C824B23CCBEE900F5EA8C /* RacingCarCustomiserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66C822C23CCBEE700F5EA8C /* RacingCarCustomiser */ = {
+			isa = PBXGroup;
+			children = (
+				B66C822D23CCBEE700F5EA8C /* AppDelegate.swift */,
+				B66C822F23CCBEE700F5EA8C /* SceneDelegate.swift */,
+				B66C823123CCBEE700F5EA8C /* ViewController.swift */,
+				B66C823323CCBEE700F5EA8C /* Main.storyboard */,
+				B66C823623CCBEE800F5EA8C /* Assets.xcassets */,
+				B66C823823CCBEE800F5EA8C /* LaunchScreen.storyboard */,
+				B66C823B23CCBEE800F5EA8C /* Info.plist */,
+				B66C825D23CCC20100F5EA8C /* Car.swift */,
+				B6CCE75E23D092E600DB8138 /* starterCars.swift */,
+			);
+			path = RacingCarCustomiser;
+			sourceTree = "<group>";
+		};
+		B66C824323CCBEE900F5EA8C /* RacingCarCustomiserTests */ = {
+			isa = PBXGroup;
+			children = (
+				B66C824423CCBEE900F5EA8C /* RacingCarCustomiserTests.swift */,
+				B66C824623CCBEE900F5EA8C /* Info.plist */,
+			);
+			path = RacingCarCustomiserTests;
+			sourceTree = "<group>";
+		};
+		B66C824E23CCBEE900F5EA8C /* RacingCarCustomiserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B66C824F23CCBEE900F5EA8C /* RacingCarCustomiserUITests.swift */,
+				B66C825123CCBEE900F5EA8C /* Info.plist */,
+			);
+			path = RacingCarCustomiserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B66C822923CCBEE700F5EA8C /* RacingCarCustomiser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C825423CCBEE900F5EA8C /* Build configuration list for PBXNativeTarget "RacingCarCustomiser" */;
+			buildPhases = (
+				B66C822623CCBEE700F5EA8C /* Sources */,
+				B66C822723CCBEE700F5EA8C /* Frameworks */,
+				B66C822823CCBEE700F5EA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RacingCarCustomiser;
+			productName = RacingCarCustomiser;
+			productReference = B66C822A23CCBEE700F5EA8C /* RacingCarCustomiser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B66C823F23CCBEE900F5EA8C /* RacingCarCustomiserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C825723CCBEE900F5EA8C /* Build configuration list for PBXNativeTarget "RacingCarCustomiserTests" */;
+			buildPhases = (
+				B66C823C23CCBEE900F5EA8C /* Sources */,
+				B66C823D23CCBEE900F5EA8C /* Frameworks */,
+				B66C823E23CCBEE900F5EA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66C824223CCBEE900F5EA8C /* PBXTargetDependency */,
+			);
+			name = RacingCarCustomiserTests;
+			productName = RacingCarCustomiserTests;
+			productReference = B66C824023CCBEE900F5EA8C /* RacingCarCustomiserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B66C824A23CCBEE900F5EA8C /* RacingCarCustomiserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C825A23CCBEE900F5EA8C /* Build configuration list for PBXNativeTarget "RacingCarCustomiserUITests" */;
+			buildPhases = (
+				B66C824723CCBEE900F5EA8C /* Sources */,
+				B66C824823CCBEE900F5EA8C /* Frameworks */,
+				B66C824923CCBEE900F5EA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66C824D23CCBEE900F5EA8C /* PBXTargetDependency */,
+			);
+			name = RacingCarCustomiserUITests;
+			productName = RacingCarCustomiserUITests;
+			productReference = B66C824B23CCBEE900F5EA8C /* RacingCarCustomiserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B66C822223CCBEE700F5EA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Manners, William (Coll)";
+				TargetAttributes = {
+					B66C822923CCBEE700F5EA8C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					B66C823F23CCBEE900F5EA8C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B66C822923CCBEE700F5EA8C;
+					};
+					B66C824A23CCBEE900F5EA8C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B66C822923CCBEE700F5EA8C;
+					};
+				};
+			};
+			buildConfigurationList = B66C822523CCBEE700F5EA8C /* Build configuration list for PBXProject "RacingCarCustomiser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B66C822123CCBEE700F5EA8C;
+			productRefGroup = B66C822B23CCBEE700F5EA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B66C822923CCBEE700F5EA8C /* RacingCarCustomiser */,
+				B66C823F23CCBEE900F5EA8C /* RacingCarCustomiserTests */,
+				B66C824A23CCBEE900F5EA8C /* RacingCarCustomiserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B66C822823CCBEE700F5EA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C823A23CCBEE800F5EA8C /* LaunchScreen.storyboard in Resources */,
+				B66C823723CCBEE800F5EA8C /* Assets.xcassets in Resources */,
+				B66C823523CCBEE700F5EA8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C823E23CCBEE900F5EA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C824923CCBEE900F5EA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B66C822623CCBEE700F5EA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C823223CCBEE700F5EA8C /* ViewController.swift in Sources */,
+				B66C822E23CCBEE700F5EA8C /* AppDelegate.swift in Sources */,
+				B66C825E23CCC20100F5EA8C /* Car.swift in Sources */,
+				B6CCE75F23D092E600DB8138 /* starterCars.swift in Sources */,
+				B66C823023CCBEE700F5EA8C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C823C23CCBEE900F5EA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C824523CCBEE900F5EA8C /* RacingCarCustomiserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C824723CCBEE900F5EA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C825023CCBEE900F5EA8C /* RacingCarCustomiserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B66C824223CCBEE900F5EA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66C822923CCBEE700F5EA8C /* RacingCarCustomiser */;
+			targetProxy = B66C824123CCBEE900F5EA8C /* PBXContainerItemProxy */;
+		};
+		B66C824D23CCBEE900F5EA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66C822923CCBEE700F5EA8C /* RacingCarCustomiser */;
+			targetProxy = B66C824C23CCBEE900F5EA8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B66C823323CCBEE700F5EA8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66C823423CCBEE700F5EA8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B66C823823CCBEE800F5EA8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66C823923CCBEE800F5EA8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B66C825223CCBEE900F5EA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B66C825323CCBEE900F5EA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B66C825523CCBEE900F5EA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RacingCarCustomiser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillManners.RacingCarCustomiser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B66C825623CCBEE900F5EA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RacingCarCustomiser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillManners.RacingCarCustomiser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B66C825823CCBEE900F5EA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RacingCarCustomiserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillManners.RacingCarCustomiserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RacingCarCustomiser.app/RacingCarCustomiser";
+			};
+			name = Debug;
+		};
+		B66C825923CCBEE900F5EA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RacingCarCustomiserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillManners.RacingCarCustomiserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RacingCarCustomiser.app/RacingCarCustomiser";
+			};
+			name = Release;
+		};
+		B66C825B23CCBEE900F5EA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RacingCarCustomiserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillManners.RacingCarCustomiserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RacingCarCustomiser;
+			};
+			name = Debug;
+		};
+		B66C825C23CCBEE900F5EA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RacingCarCustomiserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillManners.RacingCarCustomiserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RacingCarCustomiser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B66C822523CCBEE700F5EA8C /* Build configuration list for PBXProject "RacingCarCustomiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C825223CCBEE900F5EA8C /* Debug */,
+				B66C825323CCBEE900F5EA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C825423CCBEE900F5EA8C /* Build configuration list for PBXNativeTarget "RacingCarCustomiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C825523CCBEE900F5EA8C /* Debug */,
+				B66C825623CCBEE900F5EA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C825723CCBEE900F5EA8C /* Build configuration list for PBXNativeTarget "RacingCarCustomiserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C825823CCBEE900F5EA8C /* Debug */,
+				B66C825923CCBEE900F5EA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C825A23CCBEE900F5EA8C /* Build configuration list for PBXNativeTarget "RacingCarCustomiserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C825B23CCBEE900F5EA8C /* Debug */,
+				B66C825C23CCBEE900F5EA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B66C822223CCBEE700F5EA8C /* Project object */;
+}

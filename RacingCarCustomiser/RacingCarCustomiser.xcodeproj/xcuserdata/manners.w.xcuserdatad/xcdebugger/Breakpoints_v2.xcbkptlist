@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "575B1BAE-A51D-4323-9C81-7C28AE0F824D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59C39230-EC2F-4808-A88A-8C591EEB1F11"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RacingCarCustomiser/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "59C39230-EC2F-4808-A88A-8C591EEB1F11 - b99d0a32f281ec92"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RacingCarCustomiser.AppDelegate.__allocating_init() -&gt; RacingCarCustomiser.AppDelegate"
+                  moduleName = "RacingCarCustomiser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manners.w/Documents/swift-apps/RacingCarCustomiser/RacingCarCustomiser/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "59C39230-EC2F-4808-A88A-8C591EEB1F11 - 351cae7c4e5beca"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RacingCarCustomiser.AppDelegate.init() -&gt; RacingCarCustomiser.AppDelegate"
+                  moduleName = "RacingCarCustomiser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manners.w/Documents/swift-apps/RacingCarCustomiser/RacingCarCustomiser/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  uuid = "59C39230-EC2F-4808-A88A-8C591EEB1F11 - 983065504d778d07"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RacingCarCustomiser.AppDelegate.__deallocating_deinit"
+                  moduleName = "RacingCarCustomiser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manners.w/Documents/swift-apps/RacingCarCustomiser/RacingCarCustomiser/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "59C39230-EC2F-4808-A88A-8C591EEB1F11 - 3c1b2accfdf2d8d8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RacingCarCustomiser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manners.w/Documents/swift-apps/RacingCarCustomiser/RacingCarCustomiser/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
